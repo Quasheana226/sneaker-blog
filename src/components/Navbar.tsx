@@ -61,17 +61,17 @@ const Navbar: React.FC = () => {
                         Log out
                     </button>
                 </>
-    ) : (
+            ) : (
 
-        <Link to='/login'
-            style={{ marginLeft: 'auto', color: '#f97316', textDecoration: 'none', fontWeight: 600 }}
-        >
+                <Link to='/login'
+                    style={{ marginLeft: 'auto', color: '#f97316', textDecoration: 'none', fontWeight: 600 }}
+                >
 
-            Log in
-        </Link>
-    )
-}
-            </nav >
+                    Log in
+                </Link>
+            )
+            }
+        </nav >
     )
 }
 

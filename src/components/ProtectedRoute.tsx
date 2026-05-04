@@ -15,7 +15,7 @@ const ProtectedRoute: React.FC<Props> = ({ children }) => {
     // Pull the login status 
     const { isAuthenticated } = useAuth();
 
-    if (isAuthenticated) {
+    if (!isAuthenticated) {
         return < Navigate to="/login" replace />
 
     }
